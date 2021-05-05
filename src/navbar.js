@@ -3,12 +3,12 @@ import './navbar.css';
 
 class NavBar extends Component {
 	render() {
-		return <div class="topnav">
-  					<a class="active" href="#home">Home</a>
-  					<a href="#news">News</a>
-  					<a href="#contact">Contact</a>
-  					<a href="#about">About</a>
-				</div>;
+		return (<div class="nav-container">
+	  				<div class="top-right-nav">
+	  					<a href="#about">登陆</a>
+	  					<a href="#about">注册</a>
+					</div>
+				</div>);
 	}
 }
 

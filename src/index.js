@@ -5,8 +5,6 @@ import App from './App'
 import NavBar from './navbar';
 
 ReactDOM.render(
-	<NavBar/>,
-  document.getElementById('root')
-);
+<NavBar/>, document.getElementById('navbar-container'));
 
 

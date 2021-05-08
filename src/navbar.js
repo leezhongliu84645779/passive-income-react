@@ -5,8 +5,8 @@ class NavBar extends Component {
 	render() {
 		return (<div class="nav-container">
 	  				<div class="top-right-nav">
-	  					<a href="#about">登陆</a>
-	  					<a href="#about">注册</a>
+	  					<button type="button" autofocus>注册</button>
+	  					<button type="button" autofocus>登陆</button>
 					</div>
 				</div>);
 	}
